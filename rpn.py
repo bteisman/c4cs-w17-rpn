@@ -27,6 +27,20 @@ def main():
     while True:
         result = calculate(input("rpn calc> "))
         print(result)
+    x = 20
+    y = 30
+    x = 20
+    y = 30
+    x = 20
+    y = 30
+    x = 20
+    y = 30
+    x = 20
+    y = 30
+    x = 20
+    y = 30
+    x = 20
+    y = 30
         
-if __name__ == '__main__': # Note: that's "underscore underscore n a m e ..."
+if __name__ == '__main__':
     main()
