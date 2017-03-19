@@ -82,6 +82,14 @@ class Main(QtWidgets.QMainWindow):
 		plus = QtWidgets.QPushButton("+",self)
 		plus.move(130,180)
 		plus.resize(35,30)
+
+		multiply = QtWidgets.QPushButton("*",self)
+		multiply.move(130,110)
+		multiply.resize(35,30)
+
+		divide = QtWidgets.QPushButton("/",self)
+		divide.move(130,75)
+		divide.resize(35,30)
  
 		squared = QtWidgets.QPushButton("^",self)
 		squared.move(170,110)
@@ -95,7 +103,7 @@ class Main(QtWidgets.QMainWindow):
 
 		nums = [zero,one,two,three,four,five,six,seven,eight,nine]
  
-		ops = [minus,plus,squared,point,space]
+		ops = [minus,plus,multiply,divide,squared,point,space]
  
 		for i in nums:
 			i.setStyleSheet("color:blue;")
